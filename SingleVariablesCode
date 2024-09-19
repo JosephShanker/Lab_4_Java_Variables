@@ -1,0 +1,24 @@
+public class Variables {
+    public static void main(String[] args) {
+
+            int favNumberOne = 10;
+            int favNumberTwo = 7;
+            int intSum = favNumberOne + favNumberTwo;
+            int intProduct = favNumberOne * favNumberTwo;
+            int intDifference = favNumberOne - favNumberTwo;
+            int intQuotient = favNumberOne / favNumberTwo;
+            int intModulo = favNumberOne % favNumberTwo;
+
+        System.out.println("The sum of " + favNumberOne + " and " + favNumberTwo + " is " + intSum);
+
+            System.out.println("The product of " + favNumberOne + " and " + favNumberTwo + " is " + intProduct);
+
+                System.out.println("The difference of " + favNumberOne + " and " + favNumberTwo + " is " + intDifference);
+
+                    System.out.println("The quotient of " + favNumberOne + " and " + favNumberTwo + " is " + intQuotient);
+
+                        System.out.println("The modulo of " + favNumberOne + " and " + favNumberTwo + " is " + intModulo);
+
+    }
+}
+
