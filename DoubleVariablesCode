@@ -1,0 +1,23 @@
+public class DoubleVariables {
+    public static void main(String[] args) {
+
+        double price = 23.75;
+        double tax = 0.05;
+        double doubleSum = price + tax;
+        double doubleProduct = price * tax;
+        double doubleDifference = price - tax;
+        double doubleQuotient = price / tax;
+        double doubleModulo = price % tax;
+
+        System.out.println("The sum using doubles of " + price + " and " + tax + " is " + doubleSum);
+
+        System.out.println("The product using doubles of " + price+ " and " + tax + " is " + doubleProduct);
+
+        System.out.println("The difference using doubles of " + price + " and " + tax + " is " + doubleDifference);
+
+        System.out.println("The quotient using doubles of " + price+ " and " + tax + " is " + doubleQuotient);
+
+        System.out.println("The modulo using doubles of " + price + " and " + tax + " is " + doubleModulo);
+
+    }
+}
